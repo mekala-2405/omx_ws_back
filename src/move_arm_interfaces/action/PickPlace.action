@@ -1,0 +1,15 @@
+# Goal
+bool start_task  # True to start pick and place
+
+---
+# Result
+bool success
+string message
+int32 steps_completed
+
+---
+# Feedback
+int32 current_step
+int32 total_steps
+string step_description
+float32 progress_percentage

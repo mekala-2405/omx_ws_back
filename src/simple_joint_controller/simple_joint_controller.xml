@@ -1,0 +1,9 @@
+<library path="simple_joint_controller">
+  <class name="simple_joint_controller/SimpleJointController" 
+         type="simple_joint_controller::SimpleJointController" 
+         base_class_type="controller_interface::ControllerInterface">
+    <description>
+      A simple 4-joint trajectory controller for position control
+    </description>
+  </class>
+</library>
